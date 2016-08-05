@@ -78,10 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				AA6396F01D3E27DC00046CBE /* AppDelegate.swift */,
+				AADA7BB81D5494AF003054E0 /* Storyboards */,
 				AA6396F21D3E27DC00046CBE /* ViewController.swift */,
-				AA6396F41D3E27DC00046CBE /* Main.storyboard */,
 				AA6396F71D3E27DC00046CBE /* Assets.xcassets */,
-				AA6396F91D3E27DC00046CBE /* LaunchScreen.storyboard */,
 				AA6396FC1D3E27DC00046CBE /* Info.plist */,
 			);
 			path = FancyLaunch;
@@ -94,6 +93,15 @@
 				AA6397071D3E27DC00046CBE /* Info.plist */,
 			);
 			path = FancyLaunchTests;
+			sourceTree = "<group>";
+		};
+		AADA7BB81D5494AF003054E0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA6396F41D3E27DC00046CBE /* Main.storyboard */,
+				AA6396F91D3E27DC00046CBE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +398,7 @@
 				AA63970C1D3E27DC00046CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA63970D1D3E27DC00046CBE /* Build configuration list for PBXNativeTarget "FancyLaunchTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +407,7 @@
 				AA63970F1D3E27DC00046CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
